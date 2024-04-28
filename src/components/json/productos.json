@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "nombre": "Equilibrio Gato Adulto Hairball 7.5 kg",
+        "categoria": "gato",
+        "precio": 2005,
+        "descripcion": "Alimento 100% completo y balanceado para gatos adultos. Contiene ingredientes que previenen las bolas de pelo en el tracto digestivo y fomenta el equilibrio de la flora intestinal.",
+        "stock": 10,
+        "urlImagen": "../../public/equilibrio-gatos-adultos-hariball.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Sanitario Ecológico Piedra Wonder Cat 4kg",
+        "categoria": "gato",
+        "precio": 160,
+        "descripcion": "Absorbe de manera completa la orina de su gato reteniendo los fuertes olores. Producto 100% natural y libre de toxicidad.",
+        "stock": 5,
+        "urlImagen": "../../public/PiedraWonderCat.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Prednisona 5 mg - Blister",
+        "categoria": "perro",
+        "precio": 110,
+        "descripcion": "Antialérgico y antiinflamatorio.\\nIndicaciones: Pulicosis alérgica, eczema húmedo, dermatitis atópica, dermatitis solar, prurito en general, miositis traumática, miositis eosinofílica, osteopatías de tipo artrítico, quemaduras.\\nAlergias medicamentosas, asma bronquial; sensibilidad ocular como: iritis, iridociclitis, glaucoma secundario, uveitis corioretinitis, otitis externa; varias enfermedades crónicas recurrentes de etiología desconocida como colitis ulcerativa y nefrosis, insuficiencia adrenal aguda.\\nComo quimioteráptico en neoplasias linforeticulares, tumores mastocíticos y tumores SNC.\\n\\nDosis:\\n\\nMatutina en perros: 0.5-1.0 mg/Kg/día en inflamaciones y alergias.\\n0.5-2.0 mg/Kg/día alternos en tratamientos prolongados.\\nVespertina en gatos: 1 mg/Kg/7 días en inflamaciones y alergias.\\n2-4 mg/Kg/día alternos en tratamientos prolongados.",
+        "stock": 7,
+        "urlImagen": "../../public/prednisona-600x600.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Rusty 7 kg",
+        "categoria": "perro",
+        "precio": 630,
+        "descripcion": "Alimento elaborado con harina de carne , pollo, y pescado. Con proteínas y sin colorantes. Contiene Omega 3 , 6 y 9.",
+        "stock": 2,
+        "urlImagen": "../../public/rusty7kg.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Dominal Shampoo 250 ml",
+        "categoria": "perro",
+        "precio": 300,
+        "descripcion": "Presentación:\\nEnvase conteniendo 250 ml.\\nShampoo antiparasitario. Higiene y limpieza de la piel de perros y gatos.\\n\\nDescripción:\\nAntiparasitario externo, pulguicida, garrapaticida y piojicida para caninos y felinos que mata por contacto.\\n\\nEstá indicado para la prevención y tratamiento de las infestaciones por pulgas, garrapatas y piojos. Posee un excelente poder de limpieza, brindando higiene y limpieza de la piel y el pelaje.\\n\\nAdministración y dosis:\\nMojar el pelaje del animal con agua tibia y luego aplicar la cantidad de shampoo, formar abundante espuma y enjuagar. Repetir el procedimiento y dejar actuar la espuma unos minutos antes del último enjuague. Se recomienda que los baños sean repetidos cada 7 días, pero puede variar según la sugerencia del médico veterinario.\\nNo aplicar a gatitos ni cachorros menores de 2 meses de edad.",
+        "stock": 15,
+        "urlImagen": "../../public/Dominal-Shampoo-600x600.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Bandeja Sanitaria Murano Eco",
+        "categoria": "gato",
+        "precio": 580,
+        "stock": 20,
+        "urlImagen": "../../public/Bandeja-simple-600x600.jpg" 
+    },
+    {
+        "id": 7,
+        "nombre": "Correa Extensible 3 m",
+        "categoria": "perro",
+        "precio": 320,
+        "descripcion": "Correa extensible -Largo: 3 metros -Para perros de hasta 15 kg",
+        "stock": 4,
+        "urlImagen": "../../public/correa-extensible-10-600x600.jpg" 
+    },
+    {
+        "id": 8,
+        "nombre": "Rascador Torre",
+        "categoria": "gato",
+        "precio": 4200,
+        "descripcion": "Rascador torre para gato.\\n\\nLargo: 137 cm\\n\\nAncho: 80 cm\\n\\nProfundidad: 48 cm",
+        "stock": 10,
+        "urlImagen": "../../public/rascadorTorre.jpg"
+    }
+]
