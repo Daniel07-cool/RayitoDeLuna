@@ -22,7 +22,7 @@
         "nombre": "Prednisona 5 mg - Blister",
         "categoria": "perro",
         "precio": 110,
-        "descripcion": "Antialérgico y antiinflamatorio.\\nIndicaciones: Pulicosis alérgica, eczema húmedo, dermatitis atópica, dermatitis solar, prurito en general, miositis traumática, miositis eosinofílica, osteopatías de tipo artrítico, quemaduras.\\nAlergias medicamentosas, asma bronquial; sensibilidad ocular como: iritis, iridociclitis, glaucoma secundario, uveitis corioretinitis, otitis externa; varias enfermedades crónicas recurrentes de etiología desconocida como colitis ulcerativa y nefrosis, insuficiencia adrenal aguda.\\nComo quimioteráptico en neoplasias linforeticulares, tumores mastocíticos y tumores SNC.\\n\\nDosis:\\n\\nMatutina en perros: 0.5-1.0 mg/Kg/día en inflamaciones y alergias.\\n0.5-2.0 mg/Kg/día alternos en tratamientos prolongados.\\nVespertina en gatos: 1 mg/Kg/7 días en inflamaciones y alergias.\\n2-4 mg/Kg/día alternos en tratamientos prolongados.",
+        "descripcion": "Antialérgico y antiinflamatorio.\nIndicaciones: Pulicosis alérgica, eczema húmedo, dermatitis atópica, dermatitis solar, prurito en general, miositis traumática, miositis eosinofílica, osteopatías de tipo artrítico, quemaduras.\nAlergias medicamentosas, asma bronquial; sensibilidad ocular como: iritis, iridociclitis, glaucoma secundario, uveitis corioretinitis, otitis externa; varias enfermedades crónicas recurrentes de etiología desconocida como colitis ulcerativa y nefrosis, insuficiencia adrenal aguda.\\nComo quimioteráptico en neoplasias linforeticulares, tumores mastocíticos y tumores SNC.\n\nDosis:\n\nMatutina en perros: 0.5-1.0 mg/Kg/día en inflamaciones y alergias.\n0.5-2.0 mg/Kg/día alternos en tratamientos prolongados.\nVespertina en gatos: 1 mg/Kg/7 días en inflamaciones y alergias.\n2-4 mg/Kg/día alternos en tratamientos prolongados.",
         "stock": 7,
         "urlImagen": "../../public/prednisona-600x600.jpg"
     },
@@ -40,7 +40,7 @@
         "nombre": "Dominal Shampoo 250 ml",
         "categoria": "perro",
         "precio": 300,
-        "descripcion": "Presentación:\\nEnvase conteniendo 250 ml.\\nShampoo antiparasitario. Higiene y limpieza de la piel de perros y gatos.\\n\\nDescripción:\\nAntiparasitario externo, pulguicida, garrapaticida y piojicida para caninos y felinos que mata por contacto.\\n\\nEstá indicado para la prevención y tratamiento de las infestaciones por pulgas, garrapatas y piojos. Posee un excelente poder de limpieza, brindando higiene y limpieza de la piel y el pelaje.\\n\\nAdministración y dosis:\\nMojar el pelaje del animal con agua tibia y luego aplicar la cantidad de shampoo, formar abundante espuma y enjuagar. Repetir el procedimiento y dejar actuar la espuma unos minutos antes del último enjuague. Se recomienda que los baños sean repetidos cada 7 días, pero puede variar según la sugerencia del médico veterinario.\\nNo aplicar a gatitos ni cachorros menores de 2 meses de edad.",
+        "descripcion": "Presentación:\nEnvase conteniendo 250 ml.Shampoo antiparasitario. Higiene y limpieza de la piel de perros y gatos.\n\nDescripción:\nAntiparasitario externo, pulguicida, garrapaticida y piojicida para caninos y felinos que mata por contacto.\n\nEstá indicado para la prevención y tratamiento de las infestaciones por pulgas, garrapatas y piojos. Posee un excelente poder de limpieza, brindando higiene y limpieza de la piel y el pelaje.\n\nAdministración y dosis:\nMojar el pelaje del animal con agua tibia y luego aplicar la cantidad de shampoo, formar abundante espuma y enjuagar. Repetir el procedimiento y dejar actuar la espuma unos minutos antes del último enjuague. Se recomienda que los baños sean repetidos cada 7 días, pero puede variar según la sugerencia del médico veterinario.\nNo aplicar a gatitos ni cachorros menores de 2 meses de edad.",
         "stock": 15,
         "urlImagen": "../../public/Dominal-Shampoo-600x600.jpg"
     },
@@ -66,7 +66,7 @@
         "nombre": "Rascador Torre",
         "categoria": "gato",
         "precio": 4200,
-        "descripcion": "Rascador torre para gato.\\n\\nLargo: 137 cm\\n\\nAncho: 80 cm\\n\\nProfundidad: 48 cm",
+        "descripcion": "Rascador torre para gato.\n\nLargo: 137 cm\n\nAncho: 80 cm\n\nProfundidad: 48 cm",
         "stock": 10,
         "urlImagen": "../../public/rascadorTorre.jpg"
     }
