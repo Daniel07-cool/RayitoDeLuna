@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "titulo": "Jornada de Castración",
+        "img": "../../public/perrosGatosCastracion.jpg",
+        "descripcion": "Fechas del 2024 para las jornadas de castraciones gratuitas en nuestro territorio.",
+        "link": "https://municipiof.montevideo.gub.uy/castraciones-gratuitas-2024"
+    },
+    {
+        "id": 2,
+        "titulo": "Beneficios de la relación entre las mascotas y los niños",
+        "img": "../../public/niños-mascotas.jpg",
+        "descripcion": "Los beneficios de tener una mascota son aplicables para todos los seres humanos, sin embargo en los niños los animales juegan un rol importante en lo que tiene que ver con el desarrollo educativo y social, debido a que según los expertos los obliga a asumir responsabilidades desde temprana edad y les ayuda a aumentar su autoestima.",
+        "link": "https://www.lr21.com.uy/salud/1305136-ninos-mascotas-perro-gato-vinculo-beneficios"
+    },
+    {
+        "id": 3,
+        "titulo": "Jornadas de adopción de perros y gatos en Parque Rodó",
+        "img": "../../public/jornadaAdopciones.png",
+        "descripcion": "El sábado 26 y el domingo 27 de noviembre la Intendencia de Montevideo realizará jornadas de adopción de perros y gatos.",
+        "link": "https://montevideo.gub.uy/noticias/institucional/jornadas-de-adopcion-de-perros-y-gatos-en-parque-rodo"
+    }
+
+]

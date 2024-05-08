@@ -10,7 +10,7 @@ const NavBar = () => {
     }
 
     let img = {
-        width: "12.5rem"
+        width: "16rem"
     }
 
 
