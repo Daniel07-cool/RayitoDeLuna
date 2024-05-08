@@ -17,6 +17,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path={"/"} element={<CarouselListContainer />}/>
+        <Route path={"/category"} element={<ItemListContainer />}/>
         <Route path={"/category/:id"} element={<ItemListContainer />}/>
         <Route path={"/item/:id"} element={<ItemDetailContainer />}/>
         <Route path={"*"} element={<Error404 />}/>
