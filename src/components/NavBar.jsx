@@ -1,16 +1,16 @@
-import { Link, NavLink } from "react-router-dom"
-import logo from "../assets/img/portada.jpeg"
-import CartWidget from "./CartWidget"
+import { Link, NavLink } from "react-router-dom";
+import logo from "../assets/img/portada.jpeg";
+import CartWidget from "./CartWidget";
+import user from "../assets/img/person-fill.svg";
 
 const NavBar = () => {
 
     let menu = {
-        fontWeight: "bold",
-        color: "#fff"
+        fontSize: "20px"
     }
 
     let img = {
-        width: "200px"
+        width: "12.5rem"
     }
 
 
@@ -18,27 +18,23 @@ const NavBar = () => {
 
 
     return (
-        <div className="my-3 container-fluid">
-            <div className="row">
-                <div className="col"></div>
-                <div className="col text-center">
-                <Link className="navbar-brand" to={"/"}><img src={logo} alt="logo" className="img-fluid" style={img}/></Link>
-                </div>
-                
-                <div className="col text-end mx-3">
-                    <CartWidget />
-                </div>
-            </div>
-            <div className="row">
-            <div className="col">
-                <nav className="navbar navbar-expand-sm bg-secondary">
+        <>
+        <nav className="bg-info p-3"></nav>
+        <div className="container-fluid">
+            
+                <nav className="navbar navbar-expand-sm  p-4">
                     <div className="container-fluid">
-                        
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <div className="col">
+                        <div className="navbar-header">
+                            <Link className="navbar-brand" to={"/"}><img src={logo} alt="logo" className="img-fluid" style={img} /></Link>
+                        </div>
+                        </div>
+                        <div className="col"></div>
+                        <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="collapse navbar-collapse" id="collapsibleNavbar">
-                            <ul className="navbar-nav ms-auto d-flex justify-content-around align-items-center w-100" >
+                        <div className="col collapse navbar-collapse  " id="collapsibleNavbar">
+                            <ul className="nav navbar-nav ms-auto d-flex justify-content-end  align-items-end" >
                                 <li className="nav-item">
                                     <NavLink className="nav-link  text-uppercase" style={menu} to={"/"} >Inicio</NavLink>
                                 </li>
@@ -48,13 +44,14 @@ const NavBar = () => {
                                 <li className="nav-item">
                                     <NavLink className="nav-link text-uppercase" to={"/category/gato"} style={menu}>Gatos</NavLink>
                                 </li>
+                                <li><NavLink to={"/"} style={menu} className="nav-link text-uppercase"> <img src={user} alt="Logo Usuario" width={30}  />Acceder</NavLink></li>
+                                <li><CartWidget /></li>
                             </ul>
                         </div>
                     </div>
                 </nav>
-                </div>
-            </div>
         </div>
+        </>
 
     )
 }
