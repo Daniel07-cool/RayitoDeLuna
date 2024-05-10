@@ -13,7 +13,7 @@ const Carousel = ({noticia}) => {
 
     return (
         <div className="carousel-item active ">
-                <img src={noticia.img} className="card-img-top img-fluid" style={tamCard} alt="Perros y Gatos castración" />
+                <img src={noticia.img} className="d-block w-100" style={tamCard} alt="Perros y Gatos castración" />
                 <div className="carousel-caption d-none d-md-block text-dark" style={colorFondo}>
                     <h5>{noticia.titulo}</h5>
                     <p >{noticia.descripcion}</p>

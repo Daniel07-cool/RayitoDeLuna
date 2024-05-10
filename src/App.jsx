@@ -7,6 +7,7 @@ import ItemDetailContainer from './components/ItemDetailContainer'
 import Error404 from './components/Error404'
 import CarouselListContainer from "./components/CarouselListContainer";
 import Footer from "./components/Footer";
+import Banner from "./components/Banner";
 
 
 
@@ -17,11 +18,11 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path={"/"} element={<CarouselListContainer />}/>
-        <Route path={"/category"} element={<ItemListContainer />}/>
-        <Route path={"/category/:id"} element={<ItemListContainer />}/>
-        <Route path={"/item/:id"} element={<ItemDetailContainer />}/>
-        <Route path={"*"} element={<Error404 />}/>
+        <Route path={"/"} element={<CarouselListContainer />} />
+        <Route path={"/category"} element={<ItemListContainer />} />
+        <Route path={"/category/:id"} element={<ItemListContainer />} />
+        <Route path={"/item/:id"} element={<ItemDetailContainer />} />
+        <Route path={"*"} element={<Error404 />} />
       </Routes>
       <Footer />
     </BrowserRouter>
