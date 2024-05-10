@@ -37,10 +37,10 @@ const NavBar = () => {
                         <div className="col collapse navbar-collapse  " id="collapsibleNavbar">
                             <ul className="nav navbar-nav ms-auto d-flex justify-content-end  align-items-end" >
                                 <li className="nav-item">
-                                    <NavLink className="nav-link  text-uppercase" style={menu} to={"/"} >Inicio</NavLink>
+                                    <NavLink className="nav-link  text-uppercase" activeclassname="active" style={menu} to={"/"} >Inicio</NavLink>
                                 </li>
                                 <li className="nav-item dropdown text-uppercase " style={menu}>
-                                    <NavLink className="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <NavLink className="nav-link dropdown-toggle" activeclassname="active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Tienda
                                     </NavLink>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -49,7 +49,7 @@ const NavBar = () => {
                                         <li><NavLink className="dropdown-item"to={"/category/gato"}>Gatos</NavLink></li>
                                     </ul>
                                 </li>
-                                <li><NavLink to={"/"} style={menu} className="nav-link text-uppercase"> <img src={user} alt="Logo Usuario" width={30} />Acceder</NavLink></li>
+                                <li><NavLink to={"/"} style={menu} className="nav-link text-uppercase" activeclassname="active"> <img src={user} alt="Logo Usuario" width={30} />Acceder</NavLink></li>
                                 <li><CartWidget /></li>
                             </ul>
                         </div>
