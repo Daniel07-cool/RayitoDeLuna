@@ -1,44 +1,39 @@
-import { useEffect, useState } from "react";
-import arrayProductos from "./json/productos.json"
+import {useEffect, useState } from "react";
 import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
+import { collection, getDocs, getFirestore, where, query } from "firebase/firestore";
+import Loading from "./Loading";
 
 const ItemListContainer = () => {
 
     const [items, setItems] = useState([]);
     const {id} = useParams();
+    const [visible, setVisible] = useState(true);
     const [mensajeError, setMensajeError] = useState("");
 
-    useEffect(() => {
-        const promesa = new Promise((resolve, reject) => {
-            const productosFiltrados = id? arrayProductos.filter(item => item.categoria == id) : arrayProductos;
+   
 
-            setTimeout(() => {
-                if (productosFiltrados.length > 0) {
-                    resolve(productosFiltrados);
-                    setMensajeError("");
-                } else {
-                    setItems([]);
-                    reject("Lo siento! No se encontraron productos por esa Categoría!");
-                }
-                
-            }, 2000) // 2 segundos
+    
+    // Acceder a una Collection en Firestore
+    useEffect(() => {
+        const db = getFirestore();
+        const itemsCollection = collection(db, "productos");
+
+        const queryCollection = id ? query(itemsCollection, where ("categoria", "==", id)) : itemsCollection;
+        getDocs(queryCollection).then((snapShot) => {
+            if (snapShot.size > 0) {
+                setItems(snapShot.docs.map(item => ({id:item.id, ...item.data()})));
+                setVisible(false);
+            }
         });
-        
-        promesa.then(respuesta => {
-            setItems(respuesta);
-        })
-        .catch(motivo => {
-            setMensajeError(motivo);
-        })
-    }, [id])
+    }, [id]);
 
 
 
     return (
         <div className="container">
             <div className="row my-5">
-                    <ItemList items={items} />
+                {visible ? <Loading /> :<ItemList items={items} /> }
             </div>
             <div className="row">
                 <div className="col">

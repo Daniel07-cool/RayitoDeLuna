@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import arrayNoticias from "./json/noticias.json"
 import CarouselList from "./CarouselList";
 import Banner from "./Banner";
+import { addDoc, collection, getFirestore } from "firebase/firestore";
+import arrayProductos from "../components/json/productos.json";
 
 const CarouselListContainer = () => {
 
@@ -19,14 +21,15 @@ const CarouselListContainer = () => {
         })
     })
 
+     
+         
+
     return (
         <div className="container">
-
-
             <div className="row mb-5">
                 <div className="col">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
+                    <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+                        <div className="carousel-inner">
                             <CarouselList noticias={noticias} />
                         </div>
                     </div>
