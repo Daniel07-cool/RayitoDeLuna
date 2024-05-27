@@ -5,7 +5,7 @@ import NavBar from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer'
 import Error404 from './components/Error404'
-import CarouselListContainer from "./components/CarouselListContainer";
+import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import CartContextProvider from "./context/CartContext";
 import Cart from "./components/Cart";
@@ -22,7 +22,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path={"/"} element={<CarouselListContainer />} />
+          <Route path={"/"} element={<Banner />} />
           <Route path={"/category"} element={<ItemListContainer />} />
           <Route path={"/category/:id"} element={<ItemListContainer />} />
           <Route path={"/item/:id"} element={<ItemDetailContainer />} />

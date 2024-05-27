@@ -10,9 +10,9 @@ const CartContextProvider = ({children}) => {
 
     const addItem = (item, cantidad) => {
         if(estaEnCarrito(item.id)) {
-            let producto = carrito.find(prod.id === item.id);
+            let producto = carrito.find(prod => prod.id === item.id);
             producto.cantidad += cantidad;
-            setCarrito([...cart]);
+            setCarrito([...carrito]);
         } else {
             setCarrito([...carrito, {...item, cantidad:cantidad}]);
         }

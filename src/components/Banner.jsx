@@ -4,7 +4,7 @@ import bannerGato from "../assets/img/gato.jpeg";
 
 const Banner = () => {
     return (
-        <div className="container-fluid mb-5">
+        <div className="container mb-5">
             <div className="row ">
                 
                 <div className="col justify-content-around" style={{ backgroundImage:`url(${bannerPerro})`, backgroundRepeat:"no-repeat", backgroundSize:"cover", opacity:0.9, marginRight:20, height: "100vh", display: "flex", alignItems: "center", justifyContent: "center"}}>

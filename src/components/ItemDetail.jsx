@@ -8,7 +8,6 @@ const ItemDetail = ({item}) => {
 
     const onAdd = (cantidad) => {
         addItem(item, cantidad);
-        console.log("Agregaste " + cantidad + " productos!");
     }
 
     return (

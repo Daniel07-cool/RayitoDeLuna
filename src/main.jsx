@@ -9,13 +9,14 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBqS4cCwj_ps41HmP-24GzQTa6ynyzaN1k",
-  authDomain: "rayito-de-luna-dg.firebaseapp.com",
-  projectId: "rayito-de-luna-dg",
-  storageBucket: "rayito-de-luna-dg.appspot.com",
-  messagingSenderId: "464701671760",
-  appId: "1:464701671760:web:0c9d7dac0f40c253ebc455"
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID
 };
+
 
 // Initialize Firebase
 // const app = initializeApp(firebaseConfig);
