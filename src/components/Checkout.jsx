@@ -89,7 +89,7 @@ const Checkout = () => {
                         <tbody>
                             {carrito.map(item => (
                                 <tr key={item.id}>
-                                    <td><img src={"../../public/" + item.urlImagen} alt={item.nombre} width={80} /></td>
+                                    <td><img src={item.urlImagen} alt={item.nombre} width={80} /></td>
                                     <td>{item.nombre}</td>
                                     <td>X{item.cantidad}</td>
                                     <td className="text-end">${item.precio}</td>
