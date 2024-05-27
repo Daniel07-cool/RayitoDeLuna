@@ -84,8 +84,8 @@ const Checkout = () => {
                         <button type="button" className="btn text-white btn-info" onClick={generarOrden}>Generar Orden</button>
                     </form>
                 </div>
-                <div className="col">
-                    <table className="table table-responsive">
+                <div className="col table-responsive">
+                    <table className="table">
                         <tbody>
                             {carrito.map(item => (
                                 <tr key={item.id}>
