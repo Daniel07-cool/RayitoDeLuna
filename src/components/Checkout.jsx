@@ -85,7 +85,7 @@ const Checkout = () => {
                     </form>
                 </div>
                 <div className="col">
-                    <table className="table">
+                    <table className="table table-responsive">
                         <tbody>
                             {carrito.map(item => (
                                 <tr key={item.id}>
