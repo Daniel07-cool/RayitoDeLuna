@@ -16,7 +16,7 @@ const Item = ({ item }) => {
             <Link to={"/item/" + item.id}>
                 <div className="card h-100 d-flex flex-column align-items-center">
 
-                    <img src={item.urlImagen}  style={img} alt={item.nombre} />
+                    <img src={"../../public/" + item.urlImagen}  style={img} alt={item.nombre} />
 
                     <div className="card-body">
                         <h5 className="card-text text-uppercase">{item.nombre}</h5>

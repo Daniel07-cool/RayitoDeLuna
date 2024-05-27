@@ -14,7 +14,7 @@ const ItemDetail = ({item}) => {
         <div className="container">
             <div className="row">
                 <div className="col-md-5 offset-md-1">
-                <img src={item.urlImagen} className="img-fluid" alt={item.nombre} />
+                <img src={"../../public/" + item.urlImagen} className="img-fluid" alt={item.nombre} />
                 </div>
                 <div className="col-md-5">
                     <h3 className="text-uppercase">{item.nombre}</h3>

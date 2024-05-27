@@ -43,7 +43,7 @@ const Cart = () => {
                             {carrito.map(item => (
                                 <tr key={item.id}>
                                     <td className="align-middle text-start"><img src={trash} alt="Eliminar Producto" width={32} onClick={() => { removeItem(item.id) }} /></td>
-                                    <td><img src={item.urlImagen} alt={item.nombre} width={120} /></td>
+                                    <td><img src={"../../public/" + item.urlImagen} alt={item.nombre} width={120} /></td>
                                     <td className="align-middle text-center">{item.nombre}</td>
                                     <td className="align-middle text-center">${item.precio}</td>
                                     <td className="align-middle text-center">{item.cantidad}</td>
