@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState } from 'react'
 import './App.css'
 import NavBar from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer'
@@ -15,7 +14,7 @@ import Checkout from "./components/Checkout";
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <CartContextProvider>
