@@ -9,7 +9,6 @@ const ItemListContainer = () => {
     const [items, setItems] = useState([]);
     const {id} = useParams();
     const [visible, setVisible] = useState(true);
-    const [mensajeError, setMensajeError] = useState("");
 
    
 
@@ -34,11 +33,6 @@ const ItemListContainer = () => {
         <div className="container">
             <div className="row my-5">
                 {visible ? <Loading /> :<ItemList items={items} /> }
-            </div>
-            <div className="row">
-                <div className="col">
-                    {mensajeError ? <div className="alert alert-info text-center" role="alert"><h4>{mensajeError}</h4></div> : ""}
-                </div>
             </div>
         </div>
     )

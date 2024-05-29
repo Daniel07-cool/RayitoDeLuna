@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { useParams } from "react-router-dom";
 
 
 let img = {
@@ -8,6 +8,8 @@ let img = {
 }
 
 const Item = ({ item }) => {
+
+    const {id} = useParams();
     return (
 
 
@@ -16,7 +18,7 @@ const Item = ({ item }) => {
             <Link to={"/item/" + item.id}>
                 <div className="card h-100 d-flex flex-column align-items-center">
 
-                    <img src={item.urlImagen}  style={img} alt={item.nombre} />
+                    <img src={id ? "../" +  item.urlImagen : item.urlImagen}  style={img} alt={item.nombre} />
 
                     <div className="card-body">
                         <h5 className="card-text text-uppercase">{item.nombre}</h5>
